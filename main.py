@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title('My GUI')
+root.geometry("500x500")
 
 # Search for customers
 frame_search = LabelFrame(root, text="Search for customer here", padx=15, pady=15)
